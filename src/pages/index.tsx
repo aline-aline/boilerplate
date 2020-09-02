@@ -1,15 +1,19 @@
-import Head from "next/head";
+import Head from 'next/head'
 
-export default function Home() {
+type Props = {
+  title: string
+}
+
+export default function Home({ title = 'React Avançado!' }: Props) {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">React Avançado!</h1>
+        <h1 className="title">{title}</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -28,14 +32,16 @@ export default function Home() {
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card">
+            className="card"
+          >
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card">
+            className="card"
+          >
             <h3>Deploy &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
@@ -48,8 +54,9 @@ export default function Home() {
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer">
-          Powered by{" "}
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -200,5 +207,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  );
+  )
 }
