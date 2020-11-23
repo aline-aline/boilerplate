@@ -1096,12 +1096,13 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.1"
     "@babel/plugin-transform-react-pure-annotations" "^7.12.1"
 
-"@babel/preset-typescript@^7.12.1":
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/@babel/preset-typescript/-/preset-typescript-7.12.1.tgz#86480b483bb97f75036e8864fe404cc782cc311b"
-  integrity sha512-hNK/DhmoJPsksdHuI/RVrcEws7GN5eamhi28JkO52MqIxU8Z0QpmiSOQxZHWOHV7I3P4UjHV97ay4TcamMA6Kw==
+"@babel/preset-typescript@^7.12.1", "@babel/preset-typescript@^7.12.7":
+  version "7.12.7"
+  resolved "https://registry.yarnpkg.com/@babel/preset-typescript/-/preset-typescript-7.12.7.tgz#fc7df8199d6aae747896f1e6c61fc872056632a3"
+  integrity sha512-nOoIqIqBmHBSEgBXWR4Dv/XBehtIFcw9PqZw6rFYuKrzsZmOQm3PR5siLBnKZFEsDb03IegG8nSjU/iXXXYRmw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/helper-validator-option" "^7.12.1"
     "@babel/plugin-transform-typescript" "^7.12.1"
 
 "@babel/register@^7.12.1":
@@ -2445,17 +2446,17 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/react@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.1.1.tgz#e238010fb8128216e3d46e630d4c4e9ff4d87875"
-  integrity sha512-oIK785pdvoCajifWjsHe7N1R2rO83H1gWDk+sGvhIx2/QWq0mBaR0VHwlg/b/7Q/2rKnu54lK5R+u5wkU3JlcQ==
+"@storybook/react@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.1.2.tgz#863662543a18c3a2ecea7a5646ec711c29163b05"
+  integrity sha512-q7Nj++ucjk9pVt/0jUlhoqzeypbzKdmRyN80hPAsSmvpzONlJtK82VA0iujBh9G6T+cT289nq2pf555tQfiAdQ==
   dependencies:
     "@babel/preset-flow" "^7.12.1"
     "@babel/preset-react" "^7.12.1"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.4.2"
-    "@storybook/addons" "6.1.1"
-    "@storybook/core" "6.1.1"
-    "@storybook/node-logger" "6.1.1"
+    "@storybook/addons" "6.1.2"
+    "@storybook/core" "6.1.2"
+    "@storybook/node-logger" "6.1.2"
     "@storybook/semver" "^7.3.2"
     "@svgr/webpack" "^5.4.0"
     "@types/webpack-env" "^1.15.3"
